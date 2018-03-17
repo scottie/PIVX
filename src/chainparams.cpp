@@ -185,6 +185,8 @@ public:
         genesis.nBits = 0x1e0ffff0;
         genesis.nNonce = 1;
 
+         //MineGenesis(genesis, bnProofOfWorkLimit);
+
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == uint256("0x"));
         assert(genesis.hashMerkleRoot == uint256("0x"));
