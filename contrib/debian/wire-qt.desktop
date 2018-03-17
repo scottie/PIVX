@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=WIRE
+Comment=WIRE P2P Cryptocurrency
+Comment[fr]=WIRE, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=WIRE, eşten eşe kriptografik sanal para birimi
+Exec=wire-qt %u
+Terminal=false
+Type=Application
+Icon=wire128
+MimeType=x-scheme-handler/wire;
+Categories=Office;Finance;
